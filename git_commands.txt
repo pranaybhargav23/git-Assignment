@@ -1,0 +1,39 @@
+GIT COMMANDS USED IN THIS ASSIGNMENT
+1. git --version
+Shows the installed Git version to confirm Git is available.
+2. git config --global user.name "Your Name"
+Sets the name that appears on every commit I make.
+3. git config --global user.email "you@example.com"
+Sets the email address attached to my commits.
+4. git init
+Creates a new empty Git repository in the current folder.
+5. git branch -M main
+Renames the current branch to main.
+6. git add .
+Stages all new and changed files so they are included in the next commit.
+7. git add <file>
+Stages one specific file for the next commit.
+8. git commit -m "message"
+Saves the staged changes as a commit with a short description.
+9. git status
+Shows which files are modified, staged, or untracked.
+10. git branch feature
+Creates a new branch named feature.
+11. git checkout feature
+Switches to the feature branch.
+12. git checkout main
+Switches back to the main branch.
+13. git merge feature -m "message"
+Merges the feature branch into the current branch (main).
+14. git log --oneline --graph --all
+Shows the commit history of all branches as a compact graph.
+15. git revert HEAD --no-edit
+Undoes the last commit by creating a new commit that reverses it.
+16. git remote add origin <url>
+Links the local repository to the GitHub repository.
+17. git remote -v
+Lists the remote repositories the local repo is connected to.
+18. git push -u origin main
+Uploads the main branch to GitHub and sets it as the default upstream.
+19. git push origin feature
+Uploads the feature branch to GitHub.
